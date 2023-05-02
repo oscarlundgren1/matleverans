@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="login-body">
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class= "close"></label>
+    <div class="wrapper">
+        <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="login.html">Beställning</a></li>
+            <li><a href="menu.html">Meny</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+            <li><a href="#">Recentioner</a></li>
+        </ul>
+    </div>
+    <div class="loginpage">
+        <form action="">
+            <div class="main-login-Container">
+                <label for="username">Skriv ditt användarnamn:</label>
+                <input type="text" placeholder="Skriv användarnamn.." name="username" required>
+                <br><br>
+                <label for="pswrd">Skriv ditt lösernord:</label>
+                <input type="password" placeholder="Skriv lösenord.." name="pswrd" required>
+                <br><br>
+                <button class="loginbutton" type="submit">Logga in...</button>    
+                <div class="subcontainer">
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Kom ihåg mig
+                    </label>
+                    <p class="forgotpsd"> <a href="#">Glömt lösenord?</a></p>
+                </div>
+                <p class="register">Inte en medlem?  <a href="#">Registrera här!</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
